@@ -1,16 +1,28 @@
-# bmi_calculator
+# 🧮 BMI Calculator – Flutter Assignment (Module 17)
 
-A new Flutter project.
+This is a BMI Calculator app built with Flutter for Module 17 assignment. It allows users to input their weight and height in multiple units, calculates their BMI, and displays the result with a color-coded category badge.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Weight input in **kg** or **lb** (toggle)
+- ✅ Height input in **cm**, **m**, or **ft + in** (toggle)
+- ✅ Supports **decimal input** (e.g., 70.5 kg, 1.72 m, 5 ft 7.5 in)
+- ✅ BMI score and category displayed in a result card
+- ✅ **Color-coded category badge**:
+  - Underweight → Blue
+  - Normal → Green
+  - Overweight → Orange
+  - Obese → Red
+- ✅ Input validation with **snackbar error messages**
+- ✅ UX enhancement: **auto carry inches ≥ 12** (e.g., 5 ft 15 in → 6 ft 3 in)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Installation & Run
+
+### Prerequisites
+- Flutter SDK installed
+- Android emulator or physical device connected
+
